@@ -18,10 +18,10 @@ app.get('/api/health', (req, res) => {
     res.json({ status: 'ok', message: 'FlowSpace API running' });
 });
 
-// Routes to-be-added
-// app.use('/api/todos', require('./routes/todos'));
-// app.use('/api/notes', require('./routes/notes'));
-// app.use('/api/contacts', require('./routes/contacts'));
+// Routes
+app.use('/api/todos', require('./routes/todos'));
+app.use('/api/notes', require('./routes/notes'));
+app.use('/api/contacts', require('./routes/contacts'));
 
 app.listen(PORT, () => {
     console.log(`🚀 FlowSpace API running on port ${PORT}`);
