@@ -1,1 +1,5 @@
 https://stackblitz.com/edit/stackblitz-starters-efs9vcmh?file=frontend%2Fapp.js
+
+https://stackblitz.com/edit/stackblitz-starters-xyniunyx?file=.txt-chat-app
+
+https://stackblitz.com/edit/stackblitz-starters-kqv6byq2?file=.txt -- library
